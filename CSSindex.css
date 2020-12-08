@@ -1,0 +1,51 @@
+﻿body {
+    background-color: #dddddd;
+    color: #715c9d;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#form1, #form2 {
+    position: center;
+    border: 0px;
+    background-color: #b0b0b0;
+    float: left;
+    display: inline;
+    height: 45%;
+}
+
+#form1{width:20%;}
+#form2{width:50%;}
+
+
+#legendCreator, #legendConsultor {
+    color: white;
+}
+
+fieldset {
+    border: 0px;
+}
+
+#submitCreat{
+    border:0px;
+    background-color:yellow;
+}
+
+#labelConsult {
+    font-size: 15px;
+    align-content: center;
+    height:220px;
+    width:220px;
+}
+
+#submitModify{
+    background-color:yellow;
+    display:normal;
+}
+
+#imgDesk {
+    float: left;
+    display: inline;
+    height: 220px;
+    width: 220px;
+    padding-right:2em;
+}

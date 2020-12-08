@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title>Desk creator</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="CSSindex.css">
+</head>
+<body>
+<h1>Desk creator</h1>
+<h3>This is my first web app for creating desks.</h3><b></b>
+    <form id="form1">
+        <fieldset>
+            <legend id="legendCreator">Create</legend>
+            <p>
+                <label>Model</label>
+                <input type="text"
+                       id="model" required/>
+            </p>
+            <p>
+                <label>Number of drawers</label>
+                <select id="numberOfDrawers" required onfocus="">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </p>
+            <p>
+                <label>Size</label><b></b>
+
+                <input type="text"
+                       id="size" required/>
+
+            </p>
+            <p>
+                <label>Color</label><b></b>
+
+                <input type="text"
+                       id="color" required/>
+
+            </p>
+            <p>
+                <label>Material</label><b></b>
+
+                <input type="text"
+                       id="material" required/>
+
+            </p>
+            <p>
+                <label>Cost</label><b></b>
+
+                <input type="text"
+                       id="cost" required/>
+            </p>
+          
+            <input id="submitCreat" type="submit" value="Crear desk" onclick="new Desk(), alert('Desk succesfully created!')"/>
+        </fieldset>
+
+    </form>
+    <form id="form2">
+        <fieldset id="fieldset1">
+            <legend id="legendConsultor">Consult</legend>
+
+            <p>
+                <label>Desk ID</label>
+                <select id="dropDownConsultor" name="dropDownConsultor">
+                </select>
+
+            </p>
+            <p>
+                <img id="imgDesk" src="images/default.png" alt="default desk" />
+            </p>
+            <p>
+
+                <label id="labelConsult"></label>
+
+            </p>
+
+
+            <p>
+                <input type="submit" id="submitModify" name="submit" value="Modify" />
+            </p>
+
+        </fieldset>
+    </form>
+<script src="jsIndex.js"></script>
+</body>
+</html>
